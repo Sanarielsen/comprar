@@ -14,7 +14,7 @@ type Props = TouchableOpacityProps & {
 export function Filter( { isActive, status, ...rest }: Props ) {
   return (
     <TouchableOpacity 
-      style={[styles.container, {opacity: isActive ? 1 : 0.5}]} 
+      style={[styles.container, {opacity: isActive ? 1 : 0.3}]} 
       activeOpacity={0.8}
       {...rest}
     >

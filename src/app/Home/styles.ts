@@ -52,5 +52,10 @@ export const styles = StyleSheet.create({
   listContent: {
     paddingTop: 24,
     paddingBottom: 62,
+  },
+  empty: {
+    fontSize: 14,
+    color: "#808080",
+    textAlign: "center"
   }
 })
